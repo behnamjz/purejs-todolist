@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    min-width: 250px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+      margin: 0 auto;
+      width: 400px;
+  }
+
+  .header {
+    color: #171aaa;
+    padding: 30px 40px;
+    text-align: center;
+  }
+
+  .header kbd {
+      display: block;
+  }
+
+  .form {
+      margin: 0 auto;
+  }
+
+  .form input[type=text] {
+      border: 1px solid #ccc;
+      height: 35px;
+      width: 80%;
+      border-radius: 0;
+      padding: 10px;
+      float: left;
+      font-size: 16px;
+  }
+
+  .form button {
+      height: 35px;
+      line-height: 35px;
+      width: 20%;
+      min-width: 50px;
+      border: none;
+  }
+
+  .form button:hover {
+    background: #444;
+    color: white;
+  }
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    height: 35px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    padding: 0 10px;
+    line-height: 35px;
+  }
+  
+  /* Style the close, edit button */
+  .delete,
+  .edit {
+    position: absolute;
+    top: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    background: none;
+  }
+
+  .delete {
+      right: 0;
+  }
+
+  .edit {
+      right: 30px;
+  }
+  
+  .delete:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .edit:hover {
+    background-color: #cfb521;
+    color: white;
+  }
